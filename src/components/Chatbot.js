@@ -65,7 +65,7 @@ const Chatbot = () => {
         </>
       );
     } else {
-      return "I'm sorry, I didn't understand that. Please choose a department or provide feedback.";
+      return "I'm sorry, I didn't understand that. Please provide the correct department.";
     }
   };
 
