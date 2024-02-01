@@ -62,13 +62,8 @@ const Chatbot = () => {
       return (
         <>
           Sure, here is the link to the {department} department's E Library:{' '}
-          <a
-            href={departmentLinks[department]}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={externalLinkStyle}
-          >
-            {departmentLinks[department]}
+          <a href={departmentLinks[department]} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+            Go to {department} E Library
           </a>
           <br />
           Happy learning! 🎉
